@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personality Quiz</title>
+        <meta name="description" content="A Personality Quiz" />
+        <meta name="keywords" content="personality, quiz" />
+        <meta name="robots" content="noindex" />
+        <meta http-equiv="author" content="Alexandra Rezk" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <link href="stylesheet/stylesheet.css" type="text/css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Roboto+Slab" rel="stylesheet">
+    </head>
+    <body>
+        <!--Disclaimer-->
+        <p id="disclaimer"><b>Disclaimer:</b> This site is to practice my HTML skills. It will not give you results if you take it.</p>
+        <h1>Which Classical Literary Character Are You?</h1>
+        <form action="#" method="get">
+        <p>
+            <ol>
+                <!--Favorite Color-->
+                <li>What is your favorite color?</li>
+                <table>
+                    <tr><th></th></tr>
+                    <tr><th></th></tr>
+                        <!--Red and Blue choices -->
+                    <tr><td><input id="red" type="radio" name="color" value="red"><label for="red"><img src="images/FF0000.png.png"/></label></td>
+                    <td><input id="blue" type="radio" name="color" value="blue"><label for="blue"><img src="images/000080_Navy_Blue_Square.svg.png"/></label></td></tr>
+                    <tr>
+                        <!--Yellow and Green Choices-->
+                    <td><input id="yellow" type="radio" name="color" value="yellow"><label for="yellow"><img src="images/yellow.png"/></label></td>
+                    <td><input id="green" type="radio" name="color" value="green"><label for="green"><img src="images/kelly-green-paper-texture-with-flecks-300x200.jpg"/></label></td>
+                    </tr>
+                        <!--Orange and Purple choices-->
+                    <tr>
+                    <td><input id="orange" type="radio" name="color" value="orange"><label for="orange"><img src="images/orange.png"/></label></td>
+                    <td><input id="purple" type="radio" name="color" value="purple"><label for="purple"><img src="images/purple-suede.jpg"/></label></td>
+                    </tr>
+                    <!--Pink and Brown Choices-->
+                    <tr>
+                    <td><input id="pink" type="radio" name="color" value="pink"><label for="pink"><img src="images/FF0080.png.png"/></label></td>
+                    <td><input id="brown" type="radio" name="color" value="brown"><label for="brown"><img src="images/brown-07.jpg"/></label></td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+                <!--Favorite Animal-->
+                <li>What is your favorite animal?</li>
+                    <input id="wolf" type="radio" name="animal" value="wolf"><label for="wolf">Wolf</label>
+                    <input id="tiger" type="radio" name="animal" value="tiger"><label for="tiger">Tiger</label>
+                    <input id="penguin" type="radio" name="animal" value="penguin"><label for="penguin">Penguin</label>
+                    <input id="owl" type="radio" name="animal" value="owl"><label for="owl">Owl</label>
+                    <input id="eagle" type="radio" name="animal" value="eagle"><label for="eagle">Eagle</label>
+                    <input id="mouse" type="radio" name="animal" value="mouse"><label for="mouse">Mouse</label>
+                    <input id="squirrel" type="radio" name="animal" value="squirrel"><label for="squirrel">Squirrel</label>
+                <br />
+                <br />
+                <!--Favorite Time Period-->
+            <li>What is your favorite time period?</li>
+                <input id="middleages" type="checkbox" name="timeperiod" value="middleages"><label for="middleages">Middle Ages</label>
+                <input id="victorian" type="checkbox" name="timeperiod" value="victorian"><label for="victorian">Victorian Era</label>
+                <input id="1920s" type="checkbox" name="timeperiod" value="1920s"><label for="1920s">1920s</label>
+                <input id="1940s" type="checkbox" name="timeperiod" value="1940s"><label for="1940s">1940s</label>
+                <input id="1960s" type="checkbox" name="timeperiod" value="1960s"><label for="1960s">1960s</label>
+                <input id="1980s" type="checkbox" name="timeperiod" value="1980s"><label for="1980s">1980s</label>
+                <input id="1990s" type="checkbox" name="timeperiod" value="1990s"><label for="1990s">1990s</label>
+                <input id="present" type="checkbox" name="timeperiod" value="present"><label for="present">Present Day</label>
+                <br />
+                <br />
+                <!--Favorite Literary Genre-->
+                <li>What is your favorite literary genre?
+                <br/>
+                Please choose all that apply.</li>
+                <select name="genre" size="7" multiple="multiple">
+                <option value="romance">Romance</option>
+                <option value="mystery">Mystery</option>
+                <option value="nonfiction">Non-Fiction</option>
+                <option value="comedy">Comedy</option>
+                <option value="drama">Drama</option>
+                <option value="satire">Satire</option>
+                <option value="fantasy">Fantasy</option>
+                </select>
+            </ol>
+            
+            <hr />
+            <fieldset>
+                <legend>Comments</legend>
+                <p>Please tell me what you thought of this quiz</p>
+                <label>Username:<br />
+                <input type="text" name="username" /></label>
+                <br />
+                <label>Comment: <br/>
+                <textarea name="comments">Please enter your comments here.</textarea></label>
+            </fieldset>
+            <br/>
+            <hr />
+            <input type="submit" name="submit" value="Submit"/>
+            </p>
+        </form>
+    </body>
+</html>

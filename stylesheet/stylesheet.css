@@ -1,0 +1,18 @@
+body{
+    background-color:azure;
+    color: darkslategrey;
+    font-family: 'Roboto Slab', serif;
+}
+
+#disclaimer {
+    color:darkred;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+}
+
+td label img{
+    width: 200px;
+    height: 150px;
+}
